@@ -14,3 +14,6 @@ U = User Tables
     )
 
 Id INT IDENTITY (Start number, Increment with) PRIMARY KEY,
+
+NuGet Packages:
+Microsoft.Data.SqlClient
