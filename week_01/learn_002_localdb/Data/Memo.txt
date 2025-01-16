@@ -1,1 +1,16 @@
-NuGet Packages:
+IF OBJECT_ID('Users', 'U') IS NULL
+
+P = Procedure
+V = View
+F = Foreign Key
+U = User Tables
+
+    CREATE TABLE Users (
+        Id INT IDENTITY (1,1) PRIMARY KEY,
+        FirstName NVARCHAR(50) NOT NULL,
+        LastName NVARCHAR(50) NOT NULL,
+        Email NVARCHAR(100) NOT NULL,
+        PhoneNumber CHAR(15) NULL
+    )
+
+Id INT IDENTITY (Start number, Increment with) PRIMARY KEY,
