@@ -1,0 +1,2 @@
+NuGet Packages: 
+Microsoft.Data.SQLite
