@@ -346,8 +346,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Data >= 1.0.0",
-      "Microsoft.Data.Sqlite >= 9.0.1"
+      "Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -397,12 +396,6 @@
     "frameworks": {
       "net9.0": {
         "targetAlias": "net9.0",
-        "dependencies": {
-          "Microsoft.Data.Sqlite": {
-            "target": "Package",
-            "version": "[9.0.1, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
