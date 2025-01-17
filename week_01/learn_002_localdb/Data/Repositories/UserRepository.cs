@@ -9,8 +9,12 @@ public class UserRepository : IUserRepository
     // Unable to connect to the SQL server properly.
     private readonly string _connectionString = $@"
         Server=localhost;
-        Database=SchoolDB;
-        Trusted_Connection=True;
+        Database=sql_database;
+        Trusted_Connection=False;
+        Persist Security Info=False;
+        Encrypt=False;
+        User ID=Querzion;
+        Password=Scam2014;
         Connect Timeout=30;
     ";
     

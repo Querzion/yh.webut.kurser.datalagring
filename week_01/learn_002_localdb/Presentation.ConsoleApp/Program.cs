@@ -29,7 +29,7 @@ Console.ReadKey();
 Console.Clear();
 #endregion
 
-#region Show All Users
+#region Show All Users - Dialog
 
 Console.WriteLine("### SHOW ALL USERS ###");
 
