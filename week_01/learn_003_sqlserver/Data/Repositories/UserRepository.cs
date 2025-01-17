@@ -24,25 +24,18 @@ public class UserRepository : IUserRepository
 
     private void CreateUsersTableIfNotExists()
     {
-        // Link the SQL file
-        string sqlUserTableFilePath = @"../../../../Data/Scripts/UserTable.sql";
-
         try
         {
-            // Read the SQL file content
+            string sqlUserTableFilePath = @"../../../../Data/Scripts/UserTable.sql";
             string sqlScript = File.ReadAllText(sqlUserTableFilePath);
 
-            // Execute the SQL script
-            using (SqlConnection connection = new SqlConnection(_connectionString))
-            {
-                connection.Open();
+            using var connection = new SqlConnection(_connectionString);
+            connection.Open();
 
-                using (SqlCommand command = new SqlCommand(sqlScript, connection))
-                {
-                    command.ExecuteNonQuery();
-                    Console.WriteLine("Table created successfully!");
-                }
-            }
+            using var command = new SqlCommand(sqlScript, connection);
+            command.ExecuteNonQuery(); 
+            
+            Console.WriteLine("Table created successfully!");
         }
         catch (Exception ex)
         {
