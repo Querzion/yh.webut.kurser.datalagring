@@ -35,7 +35,7 @@ public class UserRepository : IUserRepository
                         LastName NVARCHAR(50) NOT NULL,
                         Email NVARCHAR(100) NOT NULL,
                         PhoneNumber NVARCHAR(15) NULL
-                )";
+            )";
 
             using var connection = new SqlConnection(_connectionString);
             connection.Open();
