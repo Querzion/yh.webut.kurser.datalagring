@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ServerApplication;
 
-Console.WriteLine("Hello, World!");
+var server = new Server("127.0.0.1", 13000);
+server.Start();
