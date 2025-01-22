@@ -1,0 +1,15 @@
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/bin/Debug/net9.0/Presentation.Console
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/bin/Debug/net9.0/Presentation.Console.deps.json
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/bin/Debug/net9.0/Presentation.Console.runtimeconfig.json
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/bin/Debug/net9.0/Presentation.Console.dll
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/bin/Debug/net9.0/Presentation.Console.pdb
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/obj/Debug/net9.0/Presentation.Console.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/obj/Debug/net9.0/Presentation.Console.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/obj/Debug/net9.0/Presentation.Console.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/obj/Debug/net9.0/Presentation.Console.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/obj/Debug/net9.0/Presentation.Console.sourcelink.json
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/obj/Debug/net9.0/Presentation.Console.dll
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/obj/Debug/net9.0/refint/Presentation.Console.dll
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/obj/Debug/net9.0/Presentation.Console.pdb
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/obj/Debug/net9.0/Presentation.Console.genruntimeconfig.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_tasks_and_events/Presentation.Console/obj/Debug/net9.0/ref/Presentation.Console.dll
