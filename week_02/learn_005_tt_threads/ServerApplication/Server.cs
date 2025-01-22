@@ -54,7 +54,6 @@ public class Server(string ipAddress, int port)
         finally
         {
             client.Close();
-            
         }
     }
 
