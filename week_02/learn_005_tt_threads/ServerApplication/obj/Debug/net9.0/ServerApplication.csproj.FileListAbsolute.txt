@@ -1,0 +1,15 @@
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/bin/Debug/net9.0/ServerApplication
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/bin/Debug/net9.0/ServerApplication.deps.json
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/bin/Debug/net9.0/ServerApplication.runtimeconfig.json
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/bin/Debug/net9.0/ServerApplication.dll
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/bin/Debug/net9.0/ServerApplication.pdb
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/obj/Debug/net9.0/ServerApplication.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/obj/Debug/net9.0/ServerApplication.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/obj/Debug/net9.0/ServerApplication.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/obj/Debug/net9.0/ServerApplication.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/obj/Debug/net9.0/ServerApplication.sourcelink.json
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/obj/Debug/net9.0/ServerApplication.dll
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/obj/Debug/net9.0/refint/ServerApplication.dll
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/obj/Debug/net9.0/ServerApplication.pdb
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/obj/Debug/net9.0/ServerApplication.genruntimeconfig.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_005_tt_threads/ServerApplication/obj/Debug/net9.0/ref/ServerApplication.dll
