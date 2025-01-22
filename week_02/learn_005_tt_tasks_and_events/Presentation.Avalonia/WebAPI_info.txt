@@ -1,0 +1,7 @@
+[
+  namn1,
+  namn2,
+  namn3,
+  namn4,
+  namn5
+]
