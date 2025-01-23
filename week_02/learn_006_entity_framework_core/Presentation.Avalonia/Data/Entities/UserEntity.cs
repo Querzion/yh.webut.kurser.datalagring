@@ -20,6 +20,6 @@ public class UserEntity
     [Column(TypeName = "varchar(150)")]
     public string Email { get; set; } = null!;
     [Required]
-    [Column(TypeName = "nvarchar(max)")]
+    [Column(TypeName = "TEXT")]
     public string Password { get; set; } = null!;
 }
