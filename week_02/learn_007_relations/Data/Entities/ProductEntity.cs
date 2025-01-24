@@ -9,6 +9,7 @@ public class ProductEntity
     public string Name { get; set; } = null!;
     public int Price { get; set; }
     
+    // Get the respective category that's linked to a product.
     public int CategoryId { get; set; }
     public CategoryEntity Category { get; set; } = null!;
 }
