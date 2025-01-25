@@ -115,7 +115,7 @@
               "target": "Package",
               "version": "[9.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.1, )"
             },
