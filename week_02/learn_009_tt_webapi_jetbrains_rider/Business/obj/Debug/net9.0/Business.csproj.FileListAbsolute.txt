@@ -1,0 +1,15 @@
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/bin/Debug/net9.0/Business.deps.json
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/bin/Debug/net9.0/Business.runtimeconfig.json
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/bin/Debug/net9.0/Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/bin/Debug/net9.0/Business.pdb
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/Business.csproj.AssemblyReference.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/Business.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/Business.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/Business.sourcelink.json
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/refint/Business.dll
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/Business.pdb
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/Business.genruntimeconfig.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_009_tt_webapi_jetbrains_rider/Business/obj/Debug/net9.0/ref/Business.dll
