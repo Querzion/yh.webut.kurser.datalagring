@@ -64,4 +64,9 @@ public class ProductService(IProductRepository productRepository) : IProductServ
         var result = await _productRepository.DeleteAsync(x => x.Id == id);
         return result;
     }
+
+    public async Task<bool> CheckIfProductExistsAsync(Expression<Func<ProductEntity, bool>> expression)
+    {
+        return await _productRepository.ExistsAsync(expression);
+    }
 }

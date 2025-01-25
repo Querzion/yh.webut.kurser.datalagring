@@ -92,4 +92,9 @@ public class ProductRepository(DataContext context) : IProductRepository
             return false;
         }
     }
+
+    public async Task<bool> ExistsAsync(Expression<Func<ProductEntity, bool>> expression)
+    {
+        return await _context.Products.AnyAsync(expression);
+    }
 }

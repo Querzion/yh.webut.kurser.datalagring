@@ -18,4 +18,5 @@ public interface IProductRepository
     Task<ProductEntity> GetAsync(Expression<Func<ProductEntity, bool>> expression);
     Task<ProductEntity> UpdateAsync(ProductEntity updatedEntity);
     Task<bool> DeleteAsync(Expression<Func<ProductEntity, bool>> expression);
+    Task<bool> ExistsAsync(Expression<Func<ProductEntity, bool>> expression);
 }
