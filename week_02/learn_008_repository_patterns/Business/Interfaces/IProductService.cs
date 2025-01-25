@@ -3,7 +3,7 @@ using Business.Dtos;
 using Business.Models;
 using Data.Entities;
 
-namespace Business.Services;
+namespace Business.Interfaces;
 
 public interface IProductService
 {
