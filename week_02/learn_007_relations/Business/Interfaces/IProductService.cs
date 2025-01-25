@@ -1,4 +1,5 @@
 using Business.Dtos;
+using Business.Models;
 using Data.Entities;
 
 namespace Business.Services;
@@ -6,5 +7,5 @@ namespace Business.Services;
 public interface IProductService
 {
     ProductEntity CreateProduct(ProductRegistrationForm form);
-    IEnumerable<ProductEntity> GetAllProducts();
+    IEnumerable<Product> GetAllProducts();
 }

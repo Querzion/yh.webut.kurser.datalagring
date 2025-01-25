@@ -1,4 +1,5 @@
 using Business.Dtos;
+using Business.Models;
 using Data.Contexts;
 using Data.Entities;
 using Microsoft.EntityFrameworkCore;
@@ -27,9 +28,19 @@ public class ProductService(DataContext context, ICategoryService categoryServic
         return productEntity;
     }
 
-    public IEnumerable<ProductEntity> GetAllProducts()
+    public IEnumerable<Product> GetAllProducts()
     {
-        var products = _context.Products.Include(x => x.Category).ToList();
+        var products = new List<Product>();
+        
+        var entities = _context.Products.Include(x => x.Category).ToList();
+        entities.ForEach(p => products.Add(new Product
+        {
+            Id = p.Id,
+            Name = p.Name,
+            Price = p.Price,
+            CategoryName = p.Category.Name,
+        }));
+         
         return products;
     }
 }

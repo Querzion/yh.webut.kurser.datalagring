@@ -1,0 +1,8 @@
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_007_relations/Presentation/obj/Debug/net9.0/Presentation.csproj.AssemblyReference.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_007_relations/Presentation/obj/Debug/net9.0/Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_007_relations/Presentation/obj/Debug/net9.0/Presentation.AssemblyInfoInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_007_relations/Presentation/obj/Debug/net9.0/Presentation.AssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_007_relations/Presentation/obj/Debug/net9.0/Presentation.csproj.CoreCompileInputs.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_007_relations/Presentation/obj/Debug/net9.0/Presentation.MvcApplicationPartsAssemblyInfo.cs
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_007_relations/Presentation/obj/Debug/net9.0/Presentation.MvcApplicationPartsAssemblyInfo.cache
+/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_007_relations/Presentation/obj/Debug/net9.0/Presentation.sourcelink.json

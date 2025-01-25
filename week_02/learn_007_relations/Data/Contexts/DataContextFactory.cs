@@ -5,7 +5,7 @@ namespace Data.Contexts;
 
 public class DataContextFactory : IDesignTimeDbContextFactory<DataContext>
 {
-    private readonly string _connectionString = "Data Source=/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_007_relations/Data/Databases/database.db";
+    private readonly string _connectionString = "Data Source=/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_02/learn_007_relations/Data/Databases/SQLite_Database.db";
     
     public DataContext CreateDbContext(string[] args)
     {
