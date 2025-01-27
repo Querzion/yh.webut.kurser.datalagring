@@ -9,4 +9,6 @@ public class CategoryEntity
 
     [Required] 
     public string CategoryName { get; set; } = null!;
+    
+    public virtual ICollection<ProductEntity> Products { get; set; } = [];
 }
