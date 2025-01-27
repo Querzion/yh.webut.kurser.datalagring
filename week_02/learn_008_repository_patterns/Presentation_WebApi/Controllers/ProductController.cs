@@ -36,4 +36,11 @@ public class ProductController(IProductService productService) : Controller
         
         return BadRequest();
     }
+    
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        var result = await _productService.GetAllProductsAsync();
+        return Ok(result);
+    }
 }
