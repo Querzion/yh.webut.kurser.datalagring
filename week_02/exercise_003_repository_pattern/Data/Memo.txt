@@ -1,0 +1,58 @@
+Övningsuppgift: Repository Pattern
+
+
+
+
+Bakgrund
+Ett företag behöver hantera sina kunder i en applikation. Ditt uppdrag är att använda Entity Framework Core med Code First-approach för att skapa en databas, samt implementera Repository Pattern och en Service Layer för att hantera CRUD-operationer.
+
+
+
+Uppgift
+Denna övningsuppgift består av flera delar. Följ stegen nedan och skriv koden enligt specifikationerna. Använd engelska för alla klassnamn, metoder och egenskaper.
+
+
+
+Del 1: Skapa modell(er)
+Definiera en modellklass för en kund med följande egenskaper, tänk på namngivningen och att göra ordning modellen så att den följer 1-3NF:
+
+
+
+Kund
+
+Namn
+E-postadress
+Telefonnummer
+
+
+
+
+Del 2: Skapa en DbContext
+Installera de NuGet-bibliotek för Entity Framework Core, som du behöver ha för din valda databaslösning.
+Skapa en DbContext-klass för att hantera databasanslutningen.
+Definiera en DbSet<> i DbContext.
+
+
+
+Del 3: Repository Pattern
+Skapa ett interface för din repository som ska hantera kunder med hjälp av CRUD (Create, Read, Update, Delete).
+Skapa en klass som implementerar interfacet och skapa den logiska funktionaliteten för att kunna genomföra CRUD mot databasen.
+
+
+
+Del 4: Skapa ett Service Layer
+Skapa ett interface för din service som ska hantera kunder. Den bör innehålla möjligheter för att skapa, hämta, uppdatera och ta bort en kund eller kunder.
+Skapa en klass som som ska bli din service som implementerar interfacet och skapa den logiska funktionaliteten för att kunna genomföra operationerna. Tänk på att använda dig av din repository här och inte gå direkt mot databasen.
+
+
+
+Del 5: Skapa en databas
+Skapa migrationsfiler med EF Core Migrations.
+Applicera migrationen för att skapa databasen och tabellerna
+
+
+
+
+Del 6: Testa CRUD-operationer
+Skapa en enkel konsolapplikation eller välj någon annan applikationsform för att kontrollera att din CRUD-funktionalitet fungerar.
+
