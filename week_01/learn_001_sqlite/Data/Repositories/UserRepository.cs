@@ -6,7 +6,7 @@ namespace Data.Repositories;
 
 public class UserRepository : IUserRepository
 {
-    private readonly string _connectionString = "Data Source=../../../../Data/Databases/database.db;";
+    private readonly string _connectionString = "Data Source=../../../../Data/Databases/database.db";
 
     public UserRepository()
     {
