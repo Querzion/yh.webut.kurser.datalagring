@@ -1,9 +1,10 @@
 using Infrastructure.Factories;
 using Infrastructure.Interfaces;
+using Presentation_Console.Interfaces;
 
 namespace Presentation_Console.Dialogs;
 
-public class CustomerDialogs(ICustomerService customerService)
+public class CustomerDialogs(ICustomerService customerService) : ICustomerDialogs
 {
     private readonly ICustomerService _customerService = customerService;
 
