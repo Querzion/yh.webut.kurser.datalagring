@@ -1,4 +1,5 @@
 using System.Runtime.InteropServices;
+using Infrastructure.Helpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
@@ -8,18 +9,7 @@ public class DataContextFactory : IDesignTimeDbContextFactory<DataContext>
 {
     public DataContext CreateDbContext(string[] args)
     {
-        string databasePath;
-
-        if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-        {
-            databasePath = @"C:\Projects\DataBase\SQLite_Database.db";
-        }
-        else
-        {
-            databasePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Projects", "Database", "SQLite_Database.db");
-        }
-
-        string connectionString = $"Data Source={databasePath}";
+        var connectionString = DatabaseHelper.GetDatabaseConnectionString();
 
         var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
         optionsBuilder.UseSqlite(connectionString);
