@@ -10,7 +10,7 @@ public class CustomerDialogs(ICustomerService customerService)
     public async Task CreateCustomerOption()
     {
         Console.Clear();
-        Console.WriteLine("Create Customer");
+        Console.WriteLine(" ### CREATE CUSTOMER ### ");
 
         var customer = CustomerFactory.CreateRegistrationForm();
         Console.Write("First name: ");
@@ -35,6 +35,9 @@ public class CustomerDialogs(ICustomerService customerService)
     
     public async Task ViewAllCustomersOption()
     {
+        Console.Clear();
+        Console.WriteLine(" ### VIEW ALL CUSTOMERS ### ");
+        
          var customers = await _customerService.GetCustomerAsync();
 
          if (customers.Any())
@@ -50,6 +53,9 @@ public class CustomerDialogs(ICustomerService customerService)
     
     public async Task ViewCustomerOption()
     {
+        Console.Clear();
+        Console.WriteLine(" ### VIEW CUSTOMER ### ");
+        
         Console.Write("Customer Email: ");
         var email = Console.ReadLine();
         
@@ -67,6 +73,9 @@ public class CustomerDialogs(ICustomerService customerService)
     
     public async Task UpdateCustomerOption()
     {
+        Console.Clear();
+        Console.WriteLine(" ### UPDATE CUSTOMER ### ");
+        
         Console.Write("Customer Email: ");
         var selectedEmail = Console.ReadLine();
         
@@ -120,6 +129,9 @@ public class CustomerDialogs(ICustomerService customerService)
     
     public async Task DeleteCustomerOption()
     {
+        Console.Clear();
+        Console.WriteLine(" ### DELETE CUSTOMER ### ");
+        
         Console.Write("Customer Email: ");
         var selectedEmail = Console.ReadLine();
         
