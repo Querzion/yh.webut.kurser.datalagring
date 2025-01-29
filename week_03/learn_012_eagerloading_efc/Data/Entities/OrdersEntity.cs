@@ -1,6 +1,6 @@
 namespace Data.Entities;
 
-public class OrderEntity
+public class OrdersEntity
 {
     
 }
