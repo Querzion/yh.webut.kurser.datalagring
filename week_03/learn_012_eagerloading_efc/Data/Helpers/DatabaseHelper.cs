@@ -6,13 +6,19 @@ public class DatabaseHelper
 {
     public static string GetDatabaseConnectionString()
     {
-        // Determine the correct database path based on the OS
-        string databasePath = RuntimeInformation.IsOSPlatform(OSPlatform.Windows)
-            ? @"C:\Projects\DataBase\SQLite_Database.db"
-            : Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Projects", "Database", "SQLite_Database.db");
-
+        var databasePath = "SQLite_Database.db";
+        try
+        {
+            databasePath = "Databases/SQLite_Database.db";
+        }
+        catch
+        {
+            // Determine the correct database path based on the OS
+            databasePath = RuntimeInformation.IsOSPlatform(OSPlatform.Windows)
+                ? @"C:\Projects\DataBase\SQLite_Database.db"
+                : Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Projects", "Database", "SQLite_Database.db");
+        }
         EnsureDatabaseExists(databasePath);
-
         return $"Data Source={databasePath}";
     }
 
