@@ -1,13 +1,15 @@
+using Business.Dtos;
 using Data.Entities;
 
 namespace Business.Interfaces;
 
 public interface IUserService
 {
-    Task<IAsyncResult> CreateUserAsync();
-    Task<IAsyncResult> GetAllUsersAsync();
-    Task<IAsyncResult> GetUserByIdAsync(int id);
-    Task<IAsyncResult> UpdateUserAsync(int id);
-    Task<IAsyncResult> DeleteUserAsync();
+    Task<IResult> CreateUserAsync(UserRegistrationForm registrationForm);
+    Task<IResult> GetUsersAsync();
+    Task<IResult> GetUserByIdAsync(int id);
+    Task<IResult> GetUserByEmailAsync(string email);
+    Task<IResult> UpdateUserAsync(int id, UserUpdateForm updateForm);
+    Task<IResult> DeleteUserAsync(int id);
     
 }
