@@ -17,40 +17,40 @@ public class Program
             .AddDbContext<DataContext>(x => x.UseSqlServer(cS))
             .AddScoped<IUserRepository, UserRepository>()
             .AddScoped<IUserRepositoryWithCache, UserRepositoryWithCache>()
+            .AddMemoryCache()
             .BuildServiceProvider();
 
 
         var userRepository = services.GetRequiredService<IUserRepository>();
         var userRepositoryWithCache = services.GetRequiredService<IUserRepositoryWithCache>();
 
-        int totalUsers = 100000;
-        int blocksCount = 50;
-        await AddToDatabaseChatGptAsync(totalUsers, blocksCount, userRepository);
-
+        // int totalUsers = 100000;
+        // int blocksCount = 50;
+        
+        // await AddToDatabaseChatGptAsync(totalUsers, blocksCount, userRepository);
         // await AddToDatabaseSliskAsync(totalUsers, userRepository);
         
+        while (true)
+        {
+            Console.Clear();
+            
+            IEnumerable<UserEntity> users = [];
+            Stopwatch sw;
+            
+            sw = Stopwatch.StartNew();
+            users = await userRepository.GetAllAsync();
+            sw.Stop();
+            Console.WriteLine($"Elapsed time(no cache): {sw.ElapsedMilliseconds} ms");
+            Console.ReadKey();
+            
+            sw = Stopwatch.StartNew();
+            users = await userRepositoryWithCache.GetAllAsync();
+            sw.Stop();
+            Console.WriteLine($"Elapsed time(with cache): {sw.ElapsedMilliseconds} ms");
+            Console.WriteLine(users.Count());
+            Console.ReadKey();
         
-        // while (true)
-        // {
-        //     Console.Clear();
-        //     
-        //     IEnumerable<UserEntity> users = [];
-        //     Stopwatch sw;
-        //     
-        //     sw = Stopwatch.StartNew();
-        //     users = await userRepository.GetAllAsync();
-        //     sw.Stop();
-        //     Console.WriteLine($"Elapsed time(no cache): {sw.ElapsedMilliseconds} ms");
-        //     Console.ReadKey();
-        //     
-        //     sw = Stopwatch.StartNew();
-        //     users = await userRepositoryWithCache.GetAllAsync();
-        //     sw.Stop();
-        //     Console.WriteLine($"Elapsed time(with cache): {sw.ElapsedMilliseconds} ms");
-        //     Console.WriteLine(users.Count());
-        //     Console.ReadKey();
-        //
-        // }
+        }
     }
 
     private static async Task AddToDatabaseSliskAsync(int totalUsers, IUserRepository userRepository)
