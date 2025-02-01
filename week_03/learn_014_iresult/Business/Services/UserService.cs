@@ -21,13 +21,13 @@ public class UserService(IUserRepository userRepository) : IUserService
         try
         {
             if (await _userRepository.ExistsAsync(x => x.Email == registrationForm.Email))
-                return Result.BadRequest("User with the same email already exists.");
+                return Result.AlreadyExists("User with the same email already exists.");
 
             var userEntity = UserFactory.Create(registrationForm);
-           (userEntity.Password, userEntity.SecurityKey) = PasswordGenerator.Generate(registrationForm.Password);
+            (userEntity.Password, userEntity.SecurityKey) = PasswordGenerator.Generate(registrationForm.Password);
            
-           var result = await _userRepository.CreateAsync(userEntity);
-           return result ? Result.Ok() : Result.Error("Unable to create user.");
+            var result = await _userRepository.CreateAsync(userEntity);
+            return result ? Result.Ok() : Result.Error("Unable to create user.");
         }
         catch (Exception ex)
         {
@@ -47,7 +47,7 @@ public class UserService(IUserRepository userRepository) : IUserService
     {
         var userEntity = await _userRepository.GetAsync(x => x.Id == id);
         if (userEntity == null)
-            return Result.BadRequest("User was not found.");
+            return Result.NotFound("User was not found.");
         
         var user = UserFactory.Create(userEntity);
         return Result<User>.Ok(user);
@@ -57,7 +57,7 @@ public class UserService(IUserRepository userRepository) : IUserService
     {
         var userEntity = await _userRepository.GetAsync(x => x.Email == email);
         if (userEntity == null)
-            return Result.BadRequest("User was not found.");
+            return Result.NotFound("User was not found.");
         
         var user = UserFactory.Create(userEntity);
         return Result<User>.Ok(user);
@@ -67,7 +67,7 @@ public class UserService(IUserRepository userRepository) : IUserService
     {
         var userEntity = await _userRepository.GetAsync(x => x.Id == id);
         if (userEntity == null)
-            return Result.BadRequest("User was not found.");
+            return Result.NotFound("User was not found.");
         
         userEntity = UserFactory.Update(userEntity, updateForm);
         var result = await _userRepository.UpdateAsync(userEntity);
@@ -78,7 +78,7 @@ public class UserService(IUserRepository userRepository) : IUserService
     {
         var userEntity = await _userRepository.GetAsync(x => x.Id == id);
         if (userEntity == null)
-            return Result.BadRequest("User was not found.");
+            return Result.NotFound("User was not found.");
         
         var result = await _userRepository.DeleteAsync(userEntity);
         return result ? Result.Ok() : Result.Error("Unable to delete user.");

@@ -20,26 +20,14 @@ var services = new ServiceCollection()
 var serviceProvider = services.BuildServiceProvider();
 var userService = serviceProvider.GetRequiredService<IUserService>();
 
-var userRegistrationForm = new UserRegistrationForm
+var userRegistrationForm = new UserRegistrationForm()
 {
     FirstName = "Slisk",
     LastName = "Lindqvist",
-    Email = "iam@querzion.com",
+    Email = "slisk.lindqvist@querzion.com",
     Password = "BytMig123!",
     ConfirmPassword = "BytMig123!"
 };
-
-// Console.WriteLine("=== Create New User ===");
-// Console.Write("Please enter your First name: ");
-// userRegistrationForm.FirstName = Console.ReadLine()!;
-// Console.Write("Please enter your Last name: ");
-// userRegistrationForm.LastName = Console.ReadLine()!;
-// Console.Write("Please enter your Email: ");
-// userRegistrationForm.Email = Console.ReadLine()!;
-// Console.Write("Please enter a Password: ");
-// userRegistrationForm.Password = Console.ReadLine()!;
-// Console.Write("Please Confirm the Password: ");
-// userRegistrationForm.ConfirmPassword = Console.ReadLine()!;
 
 
 var result = await userService.CreateUserAsync(userRegistrationForm);
@@ -53,7 +41,7 @@ switch (result.StatusCode)
     case 400:
         Console.WriteLine($"{result.ErrorMessage}");
         break;
-    
+
     case 409:
         Console.WriteLine($"{result.ErrorMessage}");
         break;
