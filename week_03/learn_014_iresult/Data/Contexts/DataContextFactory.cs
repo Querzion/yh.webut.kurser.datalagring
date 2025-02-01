@@ -8,10 +8,10 @@ public class DataContextFactory : IDesignTimeDbContextFactory<DataContext>
 {
     public DataContext CreateDbContext(string[] args)
     {
-        var cT = DatabaseHelper.GetSQLServerDatabaseConnectionString();
+        var cS = DatabaseHelper.GetSQLServerDatabaseConnectionString();
         
         var oB = new DbContextOptionsBuilder<DataContext>();
-        oB.UseSqlServer(cT);
+        oB.UseSqlServer(cS);
         return new DataContext(oB.Options);
     }
 }

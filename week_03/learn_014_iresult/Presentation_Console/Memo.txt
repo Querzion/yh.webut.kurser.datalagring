@@ -1,0 +1,2 @@
+This project starts of with never actually creating the roles, so you need to create 1 as Admin, and 2 as User.
+Because at user creation role 2 is automatically added and if it doesn't work it will not create a user, or send an error code.
