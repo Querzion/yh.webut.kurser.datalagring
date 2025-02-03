@@ -1,0 +1,8 @@
+InMemoryDatabase, is really good for non-critical databases/actions, 
+such as login tokens etc, that would be reset in the case of a server/client restart.
+
+InMemoryDatabases are not to be used in real data situations, 
+because as soon as the application goes down, all the data is lost.
+
+It can be a really good thing to use this way of handling databases in cases where you have to test,
+the functionalities of an application without the hassle of also re-situating the server databases etc.

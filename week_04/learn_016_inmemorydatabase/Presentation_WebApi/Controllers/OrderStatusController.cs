@@ -1,4 +1,5 @@
 using Data.Entities;
+using Data.Models;
 using Data.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,18 +12,23 @@ public class OrderStatusController(OrderStatusRepository orderStatusRepository) 
     private readonly OrderStatusRepository _orderStatusRepository = orderStatusRepository;
 
     [HttpPost]
-    public async Task<IActionResult> Create(string orderStatus)
+    // Use this type of string to add a status when using a string to the Create.
+    // https://localhost:7117/api/orderstatus?orderStatus=Pågår
+    // public async Task<IActionResult> Create(string orderStatus)
+    
+    // Otherwise use a RegistrationForm (DTO) and it will act differently at the Add/Create/Post.
+    public async Task<IActionResult> Create(OrderStatusRegistrationForm form)
     {
         if (!ModelState.IsValid) 
             return BadRequest();
 
-        var orderStatusEntity = await _orderStatusRepository.GetAsync(x => x.Status == orderStatus);
+        var orderStatusEntity = await _orderStatusRepository.GetAsync(x => x.Status == form.OrderStatus);
         if (orderStatusEntity != null)
             return Conflict(new { ErrorMessage = "Order status already exists." });
         
         orderStatusEntity = new OrderStatusEntity
         {
-            Status = orderStatus
+            Status = form.OrderStatus
         };
         
         var result = await _orderStatusRepository.AddAsync(orderStatusEntity);
