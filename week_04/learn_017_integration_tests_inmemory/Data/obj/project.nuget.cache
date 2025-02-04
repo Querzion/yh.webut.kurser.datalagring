@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2FhkUAXB1nA=",
+  "dgSpecHash": "YfSQj+bBM6U=",
   "success": true,
   "projectFilePath": "/home/querzion/RiderProjects/yh.webut.kurser.datalagring/week_04/learn_017_integration_tests_inmemory/Data/Data.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,6 @@
     "/home/querzion/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.1/microsoft.entityframeworkcore.abstractions.9.0.1.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.1/microsoft.entityframeworkcore.analyzers.9.0.1.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.entityframeworkcore.design/9.0.1/microsoft.entityframeworkcore.design.9.0.1.nupkg.sha512",
-    "/home/querzion/.nuget/packages/microsoft.entityframeworkcore.inmemory/9.0.1/microsoft.entityframeworkcore.inmemory.9.0.1.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.entityframeworkcore.proxies/9.0.1/microsoft.entityframeworkcore.proxies.9.0.1.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.1/microsoft.entityframeworkcore.relational.9.0.1.nupkg.sha512",
     "/home/querzion/.nuget/packages/microsoft.entityframeworkcore.sqlite/9.0.1/microsoft.entityframeworkcore.sqlite.9.0.1.nupkg.sha512",

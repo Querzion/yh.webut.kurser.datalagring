@@ -11,8 +11,8 @@ public class ProjectEntity
     public string? Description { get; set; }
     
     public int CustomerId { get; set; }
-    public CustomerEntity Customer { get; set; }
+    public virtual CustomerEntity Customer { get; set; }
     
     public int UserId { get; set; }
-    public UserEntity User { get; set; }
+    public virtual UserEntity User { get; set; }
 }

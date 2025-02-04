@@ -958,7 +958,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.InMemory": "9.0.1",
           "Microsoft.EntityFrameworkCore.Proxies": "9.0.1",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.1"
         },
@@ -2222,6 +2221,8 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Data >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.InMemory >= 9.0.1",
+      "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.1",
       "Microsoft.NET.Test.Sdk >= 17.11.1",
       "coverlet.collector >= 6.0.2",
       "xunit >= 2.9.2",
@@ -2276,6 +2277,14 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[9.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[9.0.1, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.11.1, )"
