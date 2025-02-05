@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\Exercises\\Exercise_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34A115B1-4C2B-445D-9ACE-2FC89019EE03}|Infrastructure\\Infrastructure.csproj|c:\\projects\\exercises\\exercise_3\\infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A115B1-4C2B-445D-9ACE-2FC89019EE03}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34A115B1-4C2B-445D-9ACE-2FC89019EE03}|Infrastructure\\Infrastructure.csproj|c:\\projects\\exercises\\exercise_3\\infrastructure\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34A115B1-4C2B-445D-9ACE-2FC89019EE03}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C15AC6-6CA5-4C00-9D91-5F02421D05E6}|Presentation.WebApi\\Presentation.WebApi.csproj|c:\\projects\\exercises\\exercise_3\\presentation.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C15AC6-6CA5-4C00-9D91-5F02421D05E6}|Presentation.WebApi\\Presentation.WebApi.csproj|solutionrelative:presentation.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762A16A1-DA2B-4986-A701-ED6E38CE3FA4}|Presentation.ConsoleApp\\Presentation.ConsoleApp.csproj|c:\\projects\\exercises\\exercise_3\\presentation.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762A16A1-DA2B-4986-A701-ED6E38CE3FA4}|Presentation.ConsoleApp\\Presentation.ConsoleApp.csproj|solutionrelative:presentation.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C15AC6-6CA5-4C00-9D91-5F02421D05E6}|Presentation.WebApi\\Presentation.WebApi.csproj|c:\\projects\\exercises\\exercise_3\\presentation.webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C15AC6-6CA5-4C00-9D91-5F02421D05E6}|Presentation.WebApi\\Presentation.WebApi.csproj|solutionrelative:presentation.webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Exercises\\Exercise_3\\Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Projects\\Exercises\\Exercise_3\\Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T08:46:15.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Projects\\Exercises\\Exercise_3\\Infrastructure\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Projects\\Exercises\\Exercise_3\\Infrastructure\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\CustomerService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T08:45:33.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Exercises\\Exercise_3\\Presentation.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation.WebApi\\Program.cs",
+              "ToolTip": "C:\\Projects\\Exercises\\Exercise_3\\Presentation.WebApi\\Program.cs",
+              "RelativeToolTip": "Presentation.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T08:40:04.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Exercises\\Exercise_3\\Presentation.ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation.ConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Projects\\Exercises\\Exercise_3\\Presentation.ConsoleApp\\Program.cs",
+              "RelativeToolTip": "Presentation.ConsoleApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T08:39:53.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Projects\\Exercises\\Exercise_3\\Presentation.WebApi\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Presentation.WebApi\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Projects\\Exercises\\Exercise_3\\Presentation.WebApi\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Presentation.WebApi\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T08:29:21.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

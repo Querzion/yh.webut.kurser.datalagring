@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "Presentation.WebApi.Controllers.CustomersController",
+    "Method": "Create",
+    "RelativePath": "api/customers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "form",
+        "Type": "Infrastructure.Models.CustomerRegistrationForm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.WebApi.Controllers.CustomersController",
+    "Method": "GetAll",
+    "RelativePath": "api/customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.WebApi.Controllers.CustomersController",
+    "Method": "Update",
+    "RelativePath": "api/customers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "form",
+        "Type": "Infrastructure.Models.CustomerUpdateForm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.WebApi.Controllers.CustomersController",
+    "Method": "GetByEmail",
+    "RelativePath": "api/customers/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.WebApi.Controllers.CustomersController",
+    "Method": "Delete",
+    "RelativePath": "api/customers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

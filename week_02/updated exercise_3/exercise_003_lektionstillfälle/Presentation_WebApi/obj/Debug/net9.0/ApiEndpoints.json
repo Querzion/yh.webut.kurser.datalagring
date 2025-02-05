@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Presentation_WebApi.Controllers.CustomerController",
+    "Method": "Create",
+    "RelativePath": "api/customers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "form",
+        "Type": "Infrastructure.Models.CustomerRegistrationForm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation_WebApi.Controllers.CustomerController",
+    "Method": "GetAll",
+    "RelativePath": "api/customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
