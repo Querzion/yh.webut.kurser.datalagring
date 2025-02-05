@@ -30,9 +30,7 @@ public static class UserFactory
         LastName = updateForm.LastName,
         Email = userEntity.Email,
         Password = userEntity.Password,
-        SecurityKey = userEntity.SecurityKey,
-        
-        
+        SecurityKey = userEntity.SecurityKey
     };
 
 

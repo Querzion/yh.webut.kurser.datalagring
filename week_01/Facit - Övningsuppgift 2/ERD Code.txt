@@ -1,0 +1,46 @@
+table Roles {
+  Id int [not null, pk, increment]
+  RoleName nvarchar(max) [not null]
+}
+
+table Users {
+  Id int [not null, pk, increment]
+  FirstName nvarchar(max) [not null]
+  LastName nvarchar(max) [not null]
+  RoleId int [not null, ref: > Roles.Id]
+}
+
+table Products {
+  Id int [not null, pk, increment]  
+  Name nvarchar(max) [not null]
+  Price decimal(18,2) [not null]
+}
+
+table Customers {
+  Id int [not null, pk, increment]    
+  CustomerName nvarchar(max) [not null]
+}
+
+table CustomerContacts {
+  FirstName nvarchar(50) [not null, pk]
+  LastName nvarchar(50) [not null, pk]  
+  CustomerId int [not null, pk, ref: > Customers.Id]
+}
+
+table StatusTypes {
+  Id int [not null, pk, increment]    
+  StatusName nvarchar(max) [not null] 
+}
+
+table Projects {
+  Id char(6) [not null, pk]
+  Title nvarchar(max) [not null]
+  Description nvarchar(max) [null]
+  StartDate date [not null]
+  EndDate date [null]    
+  CustomerId int [not null, ref: > Customers.Id]
+  StatusId int [not null, ref: > StatusTypes.Id]
+  UserId int [not null, ref: > Users.Id]
+  ProductId int [not null, ref: > Products.Id]
+}
+

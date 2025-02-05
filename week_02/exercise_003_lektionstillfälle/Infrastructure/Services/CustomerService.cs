@@ -15,13 +15,7 @@ public class CustomerService(ICustomerRepository customerRepository) : ICustomer
         if (customer != null)
             return false;
 
-        customer = new CustomerEntity
-        {
-            FirstName = form.FirstName,
-            LastName = form.LastName,
-            Email = form.Email,
-            PhoneNumber = form.PhoneNumber,
-        };
+        customer = CustomerFactory.Create(form);
 
         var result = await _customerRepository.CreateAsync(customer);
         return result;

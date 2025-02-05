@@ -12,7 +12,7 @@ public abstract class BaseRepository<TEntity>(DataContext context) : IBaseReposi
     protected readonly DataContext context = context;
     protected readonly DbSet<TEntity> _dbSet = context.Set<TEntity>();
 
-    public async Task<bool> CreateAsync(TEntity entity)
+    public virtual async Task<bool> CreateAsync(TEntity entity)
     {
         try
         {
@@ -28,7 +28,7 @@ public abstract class BaseRepository<TEntity>(DataContext context) : IBaseReposi
         }
     }
 
-    public async Task<IEnumerable<TEntity>?> GetAllAsync()
+    public virtual async Task<IEnumerable<TEntity>?> GetAllAsync()
     {
         try
         {
@@ -41,7 +41,7 @@ public abstract class BaseRepository<TEntity>(DataContext context) : IBaseReposi
         }
     }
 
-    public async Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> predicate)
+    public virtual async Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> predicate)
     {
         try
         {
@@ -54,7 +54,7 @@ public abstract class BaseRepository<TEntity>(DataContext context) : IBaseReposi
         }
     }
 
-    public async Task<bool> UpdateAsync(TEntity entity)
+    public virtual async Task<bool> UpdateAsync(TEntity entity)
     {
         try
         {
@@ -69,7 +69,7 @@ public abstract class BaseRepository<TEntity>(DataContext context) : IBaseReposi
         }
     }
 
-    public async Task<bool> DeleteAsync(TEntity entity)
+    public virtual async Task<bool> DeleteAsync(TEntity entity)
     {
         try
         {
@@ -85,7 +85,7 @@ public abstract class BaseRepository<TEntity>(DataContext context) : IBaseReposi
         }
     }
 
-    public async Task<bool> ExistsAsync(Expression<Func<TEntity, bool>> predicate)
+    public virtual async Task<bool> ExistsAsync(Expression<Func<TEntity, bool>> predicate)
     {
         try
         {

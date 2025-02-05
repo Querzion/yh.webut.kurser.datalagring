@@ -4,7 +4,7 @@ using Data.Entities;
 using Data.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Data.Repository;
+namespace Data.Repositories;
 
 public abstract class BaseRepository<TEntity>(DataContext context) : IBaseRepository<TEntity>
     where TEntity : class

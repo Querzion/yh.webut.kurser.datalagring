@@ -8,10 +8,12 @@ public class DataContextFactory : IDesignTimeDbContextFactory<DataContext>
 {
     public DataContext CreateDbContext(string[] args)
     {
-        var connectionString = DatabaseHelper.GetDatabaseConnectionString();
+        // var connectionString = DatabaseHelper.GetSQLiteDatabaseConnectionString();
+        var connectionString = DatabaseHelper.GetSQLServerDatabaseConnectionString();
         
         var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
-        optionsBuilder.UseSqlite(connectionString);
+        // optionsBuilder.UseSqlite(connectionString);
+        optionsBuilder.UseSqlServer(connectionString);
         
         return new DataContext(optionsBuilder.Options);
     }

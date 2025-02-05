@@ -3,7 +3,7 @@ using Data.Entities;
 using Data.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace Data.Repository;
+namespace Data.Repositories;
 
 public class OrderRepository(DataContext context) : BaseRepository<OrderEntity>(context), IOrderRepository
 {
