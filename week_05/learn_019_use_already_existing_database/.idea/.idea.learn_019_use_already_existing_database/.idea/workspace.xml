@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5253652d-9870-4b56-9541-b430f736494f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Factories/CustomerFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Factories/ProjectFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Interfaces/ICustomerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Models/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Models/CustomerRegistrationForm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Models/CustomerUpdateForm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Models/Project.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Models/ProjectRegistrationForm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Models/ProjectUpdateForm.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Services/CustomerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Business/Services/ProjectService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Contexts/DataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Contexts/DataContextFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Entities/CustomerEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Entities/ProjectEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Helpers/DatabaseHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Interfaces/IBaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Interfaces/ICustomerRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Interfaces/IProjectRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Repositories/BaseRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Repositories/CustomerRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_018_transactions/Data/Repositories/ProjectRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/.idea/.idea.Exercise_3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/.idea/.idea.Exercise_3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.ConsoleApp/obj/Debug/net9.0/Presentation.ConsoleApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.ConsoleApp/obj/Debug/net9.0/Presentation.ConsoleApp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.ConsoleApp/obj/Debug/net9.0/Presentation.ConsoleApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.ConsoleApp/obj/Debug/net9.0/Presentation.ConsoleApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.ConsoleApp/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.ConsoleApp/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.WebApi/obj/Debug/net9.0/Presentation.WebApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.WebApi/obj/Debug/net9.0/Presentation.WebApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.WebApi/obj/Debug/net9.0/Presentation.WebApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.WebApi/obj/Debug/net9.0/Presentation.WebApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.WebApi/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/Facit - Övningsuppgift 3/Exercise_3/Presentation.WebApi/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_007_relations/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_007_relations/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_007_relations/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_007_relations/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_007_relations/Business/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_007_relations/Business/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_007_relations/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_007_relations/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_007_relations/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_007_relations/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_007_relations/Data/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_007_relations/Data/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/learn_008_repository_patterns/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/.idea/.idea.exercise_003_lektionstillfälle/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/.idea/.idea.exercise_003_lektionstillfälle/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_Console/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_Console/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_WebApi/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_02/updated exercise_3/exercise_003_lektionstillfälle/Presentation_WebApi/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_012_eagerloading_efc/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Business/obj/Debug/net9.0/Business.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Business/obj/Debug/net9.0/Business.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_03/learn_014_iresult/Presentation_Console/obj/Debug/net9.0/Presentation_Console.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_04/learn_016_inmemorydatabase/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_04/learn_016_inmemorydatabase/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_04/learn_016_inmemorydatabase/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_04/learn_016_inmemorydatabase/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_04/learn_016_inmemorydatabase/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_04/learn_016_inmemorydatabase/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_04/learn_016_inmemorydatabase/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_04/learn_016_inmemorydatabase/Presentation_WebApi/obj/Debug/net9.0/Presentation_WebApi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Data/obj/Debug/net9.0/Data.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Data/obj/Debug/net9.0/Data.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Data/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Data/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Tests.Data/obj/Debug/net9.0/Tests.Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Tests.Data/obj/Debug/net9.0/Tests.Data.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Tests.Data/obj/Debug/net9.0/Tests.Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Tests.Data/obj/Debug/net9.0/Tests.Data.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Tests.Data/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_04/learn_017_integration_tests_inmemory/Tests.Data/obj/rider.project.model.nuget.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Querzion"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Querzion/yh.webut.kurser.datalagring.git",
+    "accountId": "9eceb966-3c7f-47f2-9806-fde844d143a7"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2sqzk10HOpqc20I1pUgcfGdOPVe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5253652d-9870-4b56-9541-b430f736494f" name="Changes" comment="" />
+      <created>1739198031840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739198031840</updated>
+      <workItem from="1739198032877" duration="303000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
