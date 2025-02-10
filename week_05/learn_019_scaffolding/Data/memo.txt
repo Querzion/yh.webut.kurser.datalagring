@@ -1,0 +1,11 @@
+Scaffolding Commands (SqlServer can be switched out with Sqlite etc.)
+Visual Studio
+PM> (Terminal)
+scaffold-dbcontext "put connection string here" microsoft.entityframeworkcore.sqlserver -contextdir Contexts -context DataContext -outputdir Entities
+    
+Visual Studio, Visual Studio Code, JetBrains Rider & Any Terminal (After installing dotnet-ef)
+Terminal>
+dotnet-ef dbcontext scaffold "put connection string here" microsoft.entityframework.sqlserver -o Entities -c DataContext -context-dir Contexts
+
+Example:
+dotnet-ef dbcontext scaffold "Data Source=/home/querzion/RiderProjects/yh.webut.uppgift.004/DataStorage_Assignment/Data/Databases/SQLite_Database.db" Microsoft.EntityFrameworkCore.Sqlite -o Entities -c DataContext --context-dir Contexts
